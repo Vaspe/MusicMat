@@ -12,8 +12,8 @@ clc
 
 Amp = 2 ;     % Amplitude. Kind of correlated with volume but also colour(?)
 fs  = 44100 ;   % sampling frequency for reproduction (WAV cd quality = 44100)
-saveflag = 1 ;  % save the wav file 
-playback = 0 ;  % Playback the audio
+saveflag = 0 ;  % save the wav file 
+playback = 1 ;  % Playback the audio
 use_original_Tonality   = 1;
 use_original_basefactor = 1;
 use_original_bpm = 1;

@@ -54,7 +54,7 @@ elseif flag_linear==1;  %linear parts
         ADSR_env = ADSR_env(1:numel(Tvec));
     end
     
-else
+else  % exponential functions
     if Att_val==0  %check if 0 is requested and add a small value to smooth out the signal
        Att_val=0.01;
     end
